@@ -7,111 +7,111 @@
   <meta name="google-site-verification" content="5oEPDiK493bWlYeYFVp5m4bOqkJzd9jDPMFDq409FtI" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body{
-      margin: 0;
-      /* font-family: 'Open Sans', sans-serif; */
-      font-family: 'Lato','sans-serif';
-    }
-    a{
-      text-decoration: none;
-      color: inherit;
-    }
-    a:visited{
-      color: inherit;
-    }
-
-    .page-margin{
-      max-width: 700px;
-      padding: 0 15px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .header{
-      text-align: center;
-    }
-    .header .logo{
-      letter-spacing: -2px;
-      font-size: 50px;
-      margin-top: 40px;
-      margin-bottom: 40px;
-    }
-    .logo-text{
-      font-weight: 300;
-    }
-    .logo-text-bold{
-      font-weight: 600;
-    }
-    .site-link{
-      /* text-transform: uppercase; */
-      /* color: #CBCBCB; */
-      font-weight: 300;
-      font-size: 16px;
-      margin-bottom: 10px;
-    }
-    .social-links{
-
-    }
-    .social-links img{
-      height: 25px;
-      margin: 5px;
-    }
-    .links{
-
-    }
-    .links h1{
-      text-align: center;
-      font-weight: 400;
-    }
-    .background-spider{
-      background-image: url("//i.imgur.com/m63FQDO.jpg");
-    }
-    .background-copy-js{
-      background-image: url("//i.imgur.com/dkuofWA.jpg");
-    }
-    .background-highlight{
-      background-image: url("//i.imgur.com/8Y6Rytb.jpg");
-    }
-    .link-tile{
-      display: block;
-      background-size: cover;
-      background-position: center center;
-      /* padding-top: 15px;
-      padding-bottom: 15px; */
-      padding: 15px;
-      cursor: pointer;
-      margin-bottom: 20px;
-    }
-    .tile-line{
-      padding-right: 15px;
-    }
-    .tile-headline{
-      /* text-transform: uppercase; */
-      margin-bottom: 15px;
-      font-weight: 600;
-      font-size: 24px;
-      line-height: 34px;
-    }
-    .tile-sub-heading{
-      margin-bottom: 15px;
-      font-weight: 300;
-      line-height: 24px;
-    }
-    .tile-cta{
-
-    }
-    .highlight--wrapping{
-      position: relative;
-      left: 10px;
-      padding-left: 0;
-      box-shadow: 10px 0 0 #FFF, -10px 0 0 #FFF;
-    }
-    .highlight{
-      display: inline;
-      background: #FFF;
-      color: #000;
-      padding: 4px;
-      word-wrap: break-word;
-    }
+  body{
+    margin: 0;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Lato','sans-serif';
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+  a:visited{
+    color: inherit;
+  }
+  
+  .page-margin{
+    max-width: 700px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header{
+    text-align: center;
+  }
+  .header .logo{
+    letter-spacing: -2px;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .logo-text{
+    font-weight: 300;
+  }
+  .logo-text-bold{
+    font-weight: 600;
+  }
+  .site-link{
+    /* text-transform: uppercase; */
+    /* color: #CBCBCB; */
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .social-links{
+    
+  }
+  .social-links img{
+    height: 25px;
+    margin: 5px;
+  }
+  .links{
+    
+  }
+  .links h1{
+    text-align: center;
+    font-weight: 400;
+  }
+  .background-spider{
+    background-image: url("//i.imgur.com/m63FQDO.jpg");
+  }
+  .background-copy-js{
+    background-image: url("//i.imgur.com/dkuofWA.jpg");
+  }
+  .background-highlight{
+    background-image: url("//i.imgur.com/8Y6Rytb.jpg");
+  }
+  .link-tile{
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    /* padding-top: 15px;
+    padding-bottom: 15px; */
+    padding: 15px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  .tile-line{
+    padding-right: 15px;
+  }
+  .tile-headline{
+    /* text-transform: uppercase; */
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .tile-sub-heading{
+    margin-bottom: 15px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  .tile-cta{
+    
+  }
+  .highlight--wrapping{
+    position: relative;
+    left: 10px;
+    padding-left: 0;
+    box-shadow: 10px 0 0 #FFF, -10px 0 0 #FFF;
+  }
+  .highlight{
+    display: inline;
+    background: #FFF;
+    color: #000;
+    padding: 4px;
+    word-wrap: break-word;
+  }
   </style>
 </head>
 <body>
@@ -132,7 +132,7 @@
   <section class="links page-margin">
     <h1>Development resources and links</h1>
     <!-- link tile -->
-    <a class="link-tile background-spider" href="https://www.npmjs.com/package/express-spider-middleware">
+    <div class="link-tile background-spider">
       <div class="tile-line tile-headline">
         <span class="highlight highlight--wrapping">express-spider-middleware</span>
       </div>
@@ -140,12 +140,12 @@
         <span class="highlight highlight--wrapping">An ExpressJS middleware for detecting search engine crawlers and spiders, with the option of including a callback to perform additional search engine-specific logic such as logging or monitoring.</span>
       </div>
       <div class="tile-line tile-cta">
-        <span class="highlight highlight--wrapping">Package on NPM</span>
+        <a href="https://www.npmjs.com/package/express-spider-middleware"><span class="highlight highlight--wrapping">Package on NPM</span></a>
       </div>
       <div class="tile-line tile-cta">
-        <a class="link-tile background-copy-js" href="https://yarnpkg.com/en/package/express-spider-middleware"><span class="highlight highlight--wrapping">Package on Yarn</span></a>
+        <a href="https://yarnpkg.com/en/package/express-spider-middleware"><span class="highlight highlight--wrapping">Package on Yarn</span></a>
       </div>
-    </a>
+    </div>
     <!-- link tile -->
     <!-- link tile -->
     <a class="link-tile background-copy-js" href="https://jsfiddle.net/wethrift/33b3fa1p/67/">
@@ -171,7 +171,7 @@
         <span class="highlight highlight--wrapping">Demo on CodePen</span>
       </div>
     </a>
-
+    
   </section>
   <section class="footer page-margin">
     <!-- social links -->
